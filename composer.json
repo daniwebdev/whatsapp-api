@@ -1,0 +1,15 @@
+{
+    "name": "daniwebdev/whatsapp_bot_server_backend",
+    "autoload": {
+        "psr-4": {
+            "Daniwebdev\\WhatsappBotServerBackend\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "Dani",
+        "email": "dani.webdev@gmail.com"
+    }],
+    "require": {
+        "wisembly/elephant.io": "^3.3"
+    }
+}
