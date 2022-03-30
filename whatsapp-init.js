@@ -5,6 +5,12 @@ async function runVenom(callback) {
     try {
         var client = await venom.create({
             session: 'wa-sender',
+            puppeteerOptions: {
+                args: [
+                    '--no-sandbox',
+                    '--disable-gpu',
+                ],
+            },
         });
 
         callback(client);
