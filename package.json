@@ -4,8 +4,8 @@
     "description": "",
     "main": "app-socket.js",
     "dependencies": {
+        "express": "^4.17.3",
         "prompt-sync": "^4.2.0",
-        "socket.io": "^2",
         "venom-bot": "^4.0.3",
         "winston": "^3.3.3"
     },

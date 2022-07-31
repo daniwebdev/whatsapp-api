@@ -14,8 +14,17 @@ const chromiumArgs = [
     try {
         var client = await venom.create({
             session: 'wa-sender',
+<<<<<<< HEAD
 	    browserArgs: chromiumArgs,
 
+=======
+            puppeteerOptions: {
+                args: [
+                    '--no-sandbox',
+                    '--disable-gpu',
+                ],
+            },
+>>>>>>> d2b4943487d130542155c2aa90bc2468a70e166b
         });
 
         callback(client);
